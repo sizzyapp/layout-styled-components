@@ -1,7 +1,5 @@
-import { CSSObject } from 'styled-components';
-
 interface CSSObjects {
-  [propertyName: string]: CSSObject;
+  [propertyName: string]: any;
 }
 
 export const flex: CSSObjects = {

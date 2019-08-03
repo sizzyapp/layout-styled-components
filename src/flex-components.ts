@@ -88,8 +88,3 @@ const getVerticalProps = ({ invert = false, ...rest }) => {
 
 export const Horizontal = styled.div<CommonProps>(getHorizontalProps);
 export const Vertical = styled.div<CommonProps>(getVerticalProps);
-
-export const TopFlex = styled.div({
-  ...flex.vertical,
-  flex: 1
-});
