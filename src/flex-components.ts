@@ -25,6 +25,9 @@ interface CommonProps {
   noShrink?: boolean;
   styles?: any;
   invert?: boolean;
+  fullW?: boolean;
+  fullH?: boolean;
+  debug?: boolean;
 }
 
 export const common = (direction: 'horizontal' | 'vertical') => (
@@ -54,6 +57,9 @@ export const common = (direction: 'horizontal' | 'vertical') => (
   ...(p.noShrink && {
     flexShrink: 0,
   }),
+  ...(p.fullW && { width: '100%' }),
+  ...(p.fullH && { height: '100%' }),
+  ...(p.debug && { border: '1px solid red' }),
   ...(p.styles && p.styles),
 });
 
