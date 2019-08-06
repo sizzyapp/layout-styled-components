@@ -50,7 +50,7 @@ export const common = (direction: 'horizontal' | 'vertical') => (
       ...(p.spaceBottom && { marginBottom: `${p.spaceAll}px !important` }),
     },
     '& > *:last-child': {
-      [margin[direction]]: 0,
+      [margin[direction]]: `0 !important`,
       ...(p.spaceBottom && { marginBottom: `0 !important` }),
     },
   }),
