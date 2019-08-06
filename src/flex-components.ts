@@ -46,7 +46,7 @@ export const common = (direction: 'horizontal' | 'vertical') => (
   }),
   ...(p.spaceAll && {
     '& > *': {
-      [margin[direction]]: p.spaceAll,
+      [margin[direction]]: `${p.spaceAll} !important`,
       ...(p.spaceBottom && { marginBottom: `${p.spaceAll} !important` }),
     },
     '& > *:last-child': {
