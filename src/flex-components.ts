@@ -42,12 +42,12 @@ export const common = (direction: 'horizontal' | 'vertical') => (
   ...(p.alignItemsStart && flex.alignItemsStart),
   ...(p.flex && { flex: p.flex }),
   ...(p.spaceFirst && {
-    '& :first-child': { [margin[direction]]: `${p.spaceFirst} !important` },
+    '& :first-child': { [margin[direction]]: `${p.spaceFirst}px !important` },
   }),
   ...(p.spaceAll && {
     '& > *': {
-      [margin[direction]]: `${p.spaceAll} !important`,
-      ...(p.spaceBottom && { marginBottom: `${p.spaceAll} !important` }),
+      [margin[direction]]: `${p.spaceAll}px !important`,
+      ...(p.spaceBottom && { marginBottom: `${p.spaceAll}px !important` }),
     },
     '& > *:last-child': {
       [margin[direction]]: 0,
