@@ -43,6 +43,6 @@
     "@types/styled-components": "^4.1.18",
     "polished": "^3.4.1",
     "styled-components": "^4.3.2",
-    "styled-mixins": "^0.1.1"
+    "styled-mixins": "^0.1.6"
   }
 }

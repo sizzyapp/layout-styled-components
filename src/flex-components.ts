@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import flex from './flex';
-import { fixedHeight, fixedWidth } from 'styled-mixins';
+import { fixedHeight, fixedWidth, gridProps, grid } from 'styled-mixins';
 
 const margin = {
   horizontal: 'marginRight',
@@ -102,3 +102,4 @@ export const Space = styled.div<{ size: number }>(({ size = 1 }) => ({
 
 export const Horizontal = styled.div<CommonProps>(getHorizontalProps);
 export const Vertical = styled.div<CommonProps>(getVerticalProps);
+export const Grid = styled.div<gridProps>(grid);
