@@ -5826,12 +5826,13 @@ styled-components@^4.3.2:
     stylis-rule-sheet "^0.0.10"
     supports-color "^5.5.0"
 
-styled-mixins@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/styled-mixins/-/styled-mixins-0.1.6.tgz#f340280d571e5f5f28dedfcd3e07ea857552710a"
-  integrity sha512-nP+NIJg8yAo4u3wUZIobyAXBQqDywshZoTrz+m96qqxILG932h+TtlZGF3kYGiNmb1soHaDD2xruukO+7qrlaw==
+styled-mixins@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/styled-mixins/-/styled-mixins-0.1.8.tgz#813b348042231ae2c6dc8f0351fb805063df8900"
+  integrity sha512-dFlzrFDx4E2Z+np4CQwJQZtCci9k/2QB4QiyssH/WgcIIAeO4hyBp1YLaLOaWNXu/coZFikmzJqvCWutHyteug==
   dependencies:
     polished "^3.4.1"
+    styled-components "^4.3.2"
 
 stylis-rule-sheet@^0.0.10:
   version "0.0.10"
