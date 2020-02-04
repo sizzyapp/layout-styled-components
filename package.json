@@ -40,9 +40,9 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@types/styled-components": "^4.1.19",
-    "polished": "^3.4.1",
-    "styled-components": "^4.4.0",
+    "@types/styled-components": "^4.4.2",
+    "polished": "^3.4.4",
+    "styled-components": "^5.0.0",
     "styled-mixins": "^0.1.10"
   }
 }
